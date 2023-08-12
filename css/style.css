@@ -1,0 +1,22 @@
+.site-header{
+background-color: #fff;
+}
+.sitenav-link{
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-decoration: none;
+color: #000;
+}
+.main-link{
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+    background-color: #ff7500;
+    text-decoration: none;
+
+    
+}
