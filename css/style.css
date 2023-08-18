@@ -1,8 +1,20 @@
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto", "Arial" sans-serif;
+    letter-spacing: 0.5px;
+}
+
 .site-header{
 background-color: #fff;
 }
 
+.sitenav-list{
+    list-style-type: none;
+}
+
 .sitenav-link{
+    font-family: "roboto", sans-serif;
 font-size: 13px;
 font-style: normal;
 font-weight: 500;
@@ -13,6 +25,7 @@ text-decoration: none;
 color: #000;
 }
 .main-link{
+    font-family: "roboto", sans-serif;
     font-size: 13px;
     line-height: 15px;
     color: #fff;
@@ -37,10 +50,12 @@ color: #000;
 }
 
 .hero-heading{
+    font-family: "Roboto condensed" sans-serif;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.5;
     color: #fff;
+    font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
 .hero-img{
@@ -49,16 +64,22 @@ color: #000;
 }
 
 .hero-text{
+    font-family: "roboto", sans-serif;
    font-size: 16px;
    line-height: 1.5;
     color: #fff;
 }
 
 .features-heading{
+    font-family: "Roboto condensed", "Roboto", "Arial", sans-serif;
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+}
+
+.feature{
+    width: 340px;
 }
 
 .feature-icon-wrapper{
@@ -69,13 +90,61 @@ color: #000;
 }
 
 .feature-title{
+    font-family: "roboto condensed", "roboto", "Arial", sans-serif;
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.5px ;
 }
 
 .feature-info{
+    font-family: "roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.5px;
+}
 
+.promo{
+   background-color: #252420; 
+}
+
+.promo-content{
+    width: 440px;
+    color: #fff;
+}
+
+.promo-heading{
+    font-family: "roboto condensed", "roboto", "Arial", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.promo-text{
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.promo-highlight{
+    color: #ff7500;
+}
+
+.promo-img{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+.site-footer ul{
+    list-style: none;
+}
+
+.site-footer-divider{
+    background-color: rgba(37, 36, 32, 0.5);
+}
+
+.footer-link{
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    color: #252420;
+    line-height: 19px;
 }
