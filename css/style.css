@@ -14,6 +14,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 5px solid #ff7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: #fff;
 }
 
@@ -37,6 +40,7 @@ body{
 .sitenav-list{
     display: flex;
     list-style-type: none;
+    padding: 0;
 }
 
 .sitenav-link{
@@ -63,8 +67,12 @@ body{
 
 
 .main-link{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
     font-family: "roboto", sans-serif;
     font-size: 13px;
+    font-weight: bold;
     line-height: 15px;
     color: #fff;
     background-color: #ff7500;
@@ -82,6 +90,8 @@ body{
 
 
 .hero{
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,6 +105,7 @@ body{
 .orange-line{
     width: 80px;
     height: 3px;
+    border: none;
     background-color: #ff7500;
 
 }
@@ -111,13 +122,19 @@ body{
 .hero-img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 
 .hero-text{
     font-family: "roboto", sans-serif;
-   font-size: 16px;
-   line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
     color: #fff;
+}
+
+.features{
+    padding-top: 210px;
+    padding-bottom: 210px;
 }
 
 .features-heading{
@@ -132,6 +149,7 @@ body{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    padding: 0;
 }
 
 .feature{
@@ -139,6 +157,10 @@ body{
 }
 
 .feature-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
@@ -163,6 +185,7 @@ body{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    border-radius: 12px;
     background-color: #252420; 
 }
 
@@ -190,7 +213,13 @@ body{
 .promo-img{
     width: 440px;
     height: 440px;
+    border-radius: 12px;
     object-fit: cover;
+}
+
+.site-footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 
 .site-footer ul{
@@ -212,6 +241,7 @@ body{
 }
 
 .socials a:hover{
+    padding: 0;
     color: #ff7500;
 }
 
@@ -220,10 +250,13 @@ body{
 }
 
 .site-footer-divider{
+    height: 2px;
+    border: 0;
     background-color: rgba(37, 36, 32, 0.5);
 }
 
 .site-footer-bottom{
+    padding: 0;
     display: flex;
 }
 
